@@ -236,3 +236,950 @@ input:checked + .slider:before {
 .ingles{
     padding-bottom: 25px;
 }
+
+
+  /*Beneficios*/
+  #beneficios-TecHelp{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  #beneficios-TecHelp h2{
+    color: rgb(0, 0, 0);
+  }
+  
+  #beneficios-TecHelp .container{
+   /*padding: 150px 12px;*/
+    padding: 200px 0 12px 12px
+  }
+  
+  #beneficios-TecHelp h2 {
+    margin-top: 0;
+    font-size: 2.0em;
+  }
+  
+  #beneficios-TecHelp p {
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  
+  #beneficios-TecHelp  .carta{
+    background-size: cover;
+    background-position: center center;
+  
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+  /*Selecciona la primer "carta" de las 3 creadas*/
+  .carta:first-child {
+    /*Aplicando el gradiente - Overlay*/
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+  }
+  
+  /*Selecciona la segunda "carta" de las 3 creadas*/
+  .carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+  }   
+  
+  /*Selecciona la segunda "carta" de las 3 creadas
+  .carta:nth-child(3) --> da el mismo resultado*/
+  .carta:last-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+  }
+  
+  .beneficios{
+    text-align: center;
+    padding: 20px 1px;
+  }
+  
+  .beneficios li{
+    padding: 15px 0px;
+    font-weight: bold;
+    margin-left: -25px;
+  }
+  
+  .beneficios li::before {
+    content: "\2714"; /* CÃ³digo del emoji de checkmark */
+    color: rgb(137, 255, 137); /* Color del emoji */
+    margin-right: 5px; /* Espacio entre el emoji y el texto */
+  }
+
+  /*Precios*/
+#precios-TecHelp{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  #precios-TecHelp .container{
+    padding: 100px 0 12px 12px
+  }
+  
+  #precios-TecHelp h2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-size: 2.0em;
+  }
+  
+  .text {
+    padding: 05px;
+  }
+  #precios-TecHelp  p {
+    
+    /*display: none;*/
+    padding-bottom: 40px; 
+  }
+  
+  #precios-TecHelp .carta2{
+    background-size: cover;
+    background-position: center center;
+  
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .components .div {
+    background-size: cover;
+    background-position: center center;
+  
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .carta2:first-child {
+      background-image: linear-gradient(
+          0deg,
+          #BBDEFB,
+          #BBDEFB
+      );
+  
+      border-radius: 5px;
+      border: 2px solid rgba(178, 178, 178, 0.522);
+  }
+  
+  .carta2:nth-child(2) {
+      background-image: linear-gradient(
+        0deg,
+        #BBDEFB,
+        #BBDEFB
+    );
+  
+    border-radius: 5px;
+    border: 2px solid rgba(178, 178, 178, 0.522);
+  }   
+  
+  .carta2:last-child {
+      background-image: linear-gradient(
+        0deg,
+        #BBDEFB,
+        #BBDEFB
+    );
+    border-radius: 5px;
+    border: 2px solid rgba(178, 178, 178, 0.522);
+  }
+  
+  .precios .carta2:first-child button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: #1E88E5;
+  }
+  
+  .precios .carta2:nth-child(2) button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 228, 134);
+  }
+  
+  
+  .precios .carta2:last-child button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: #1E88E5;
+  }
+  
+  /*Personalización de título de los precios*/
+  .precios .carta2:first-child h3{
+    color: #000000;
+  }
+  
+  .precios .carta2:nth-child(2) h3{
+    color: rgb(224, 210, 78);
+  }
+  
+  .precios .carta2:last-child h3{
+    color: #000000;
+  }
+  
+  
+  /*Personalización de botones*/
+  .precios .carta2:first-child button:hover{
+    font-size: 1.50em;
+    background-color: rgba(147, 208, 255, 0.654);
+  }
+  
+  .precios .carta2:nth-child(2) button:hover{
+    font-size: 1.50em;
+    background-color: rgb(255, 244, 142);
+  }
+  
+  
+  .precios .carta2:last-child button:hover{
+    font-size: 1.50em;
+    background-color: rgba(147, 208, 255, 0.654);
+  }
+  
+  
+  /*Personalización de bordes*/
+  .carta2:first-child:hover {
+    border: 3px solid rgba(54, 224, 114, 0.495);
+  }
+  
+  .carta2:nth-child(2):hover{
+    border: 3px solid rgb(243, 232, 134);
+  }   
+  
+  .carta2:last-child:hover {
+    border: 3px solid rgba(124, 185, 231, 0.654);
+  }
+  
+  
+/*Testimonios*/
+
+#testimonios-TecHelp {
+  background-color: #0D47A1;
+  color: #ffffff;
+  text-align: center;
+}
+
+#testimonios-TecHelp .container {
+  padding: 100px 0 12px 12px;
+  width: 80%;
+}
+
+#testimonios-TecHelp h2 {
+  margin-top: 0;
+  font-size: 2.2em;
+}
+
+#testimonios-TecHelp .carta3 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(38, 38, 38, 0.838);
+
+  /*Transición*/
+  transition: transform 0.3s ease;
+}
+
+#testimonios-TecHelp .carta3 .image-person {
+  width: 200px;
+  height: 90px;
+  border-radius: 70%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+#testimonios-TecHelp .carta3 .image-person img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#testimonios-TecHelp .carta3 .comentario h3,
+#testimonios-TecHelp .carta3 .comentario p {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+#testimonios-TecHelp .carta3 .comentario h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#testimonios-TecHelp .carta3 .comentario p {
+  font-size: 0.9em;
+}
+
+#testimonios-TecHelp .carta3 .comentario .rol {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#testimonios-TecHelp .carta3 p:last-child {
+  margin-top: 10px;
+}
+
+#testimonios-TecHelp .carta3:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px rgb(198, 198, 198);
+}
+
+.membership {
+  color:#ffffff
+}
+
+/*Contacto*/
+#contacto-TecHelp .container {
+  text-align: center;
+  padding: 100px 0 12px 12px
+}
+
+#contacto-TecHelp .title-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label{
+  padding: 10px;
+}
+#contacto-TecHelp h2 {
+  margin-top: 0;
+  font-size: 2.2em;
+}
+
+#contacto-TecHelp p {
+  font-size: 1.1em;
+}
+
+#contacto-TecHelp .formulario-TecHelp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacto-TecHelp .image-container {
+  display: none;
+  /*
+  max-width: 100%;
+  height: auto;*/
+}
+
+.formulario-TecHelp .form-container {
+  flex: 1;
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.formulario-TecHelp .image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-TecHelp .form {
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(80, 80, 80, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.formulario-TecHelp .form:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(0, 57, 110, 0.5);
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000; /* Color del título del formulario */
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #1968d6; /* Color del borde al enfocar el campo de entrada */
+}
+
+.btn-submit {
+  background-color: #1e488b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-submit:hover {
+  background-color: #5ea8ce;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
+.formulario-TecHelp {
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.form {
+  background-color: #72B4EF;
+  padding: 30px;
+  border-radius: 10px;
+}
+/*Sobre Nosotros*/
+#nosotros-TecHelp .container {
+  text-align: center;
+  padding: 200px 12px; 
+}
+
+#nosotros-TecHelp h2 {
+  margin-top: 0;
+  font-size: 2.2em;
+  color: #000000; /* Color del título */
+}
+
+#nosotros-TecHelp  iframe{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 40vh;
+}
+
+#nosotros-TecHelp  iframe:hover{
+  opacity: 0.9; 
+}
+
+/*Footer*/
+#footer-TecHelp {
+  background-color: #72B4EF;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-image-footer {
+  width: 150px; /* Ajusta el tamaño del logo según tus preferencias */
+}
+
+.column2,
+.column3,
+.column4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.column2 label{
+  color: white;
+}
+
+
+.column4 {
+  max-width: 400px;
+  display: inline-block;;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nets,
+.download-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-download {
+  margin-top: 20px;
+}
+
+.social-download > div {
+  margin: 10px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options li {
+  margin-bottom: 10px;
+}
+
+.options li:hover {
+  font-weight: bold;
+}
+
+.options li a {
+  color: white;
+  text-decoration: none;
+}
+.nets li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.play-store {
+  margin-top: 10px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+}
+
+/*VERSION Desktop*/
+/*Si el ancho es mayor a 720px:*/
+
+@media (min-width: 720px) {
+  
+  header{
+    /*para que al navegar se mantenga 
+    la barra de navegación quieta*/
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  header nav a {
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+
+  .spain{
+    padding-top: 5px;
+    margin-left: 15px;
+  }
+
+  .switch {
+    margin-left: 1px; /* Ajusta el margen izquierdo según tu preferencia */
+    margin-right: 2px; /* Ajusta el margen izquierdo según tu preferencia */
+    margin-top: 5px;
+  }
+
+  #hero {
+    height: 115vh; /*para que se vea mejor la imagen*/
+  }
+
+  #hero h1{
+    font-size: 5em;
+  }
+
+
+
+
+   /*Beneficios*/
+  #beneficios-TecHelp .beneficios {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #beneficios-TecHelp p {
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  #beneficios-TecHelp h2 {
+    font-size: 4em;
+  }
+  
+  #beneficios-TecHelp h3 {
+    margin-top: 0;
+  }
+  
+  #beneficios-TecHelp .carta {
+    padding: 80px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; /* Centra las imágenes verticalmente */
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .carta ul {
+    margin-top: 210px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .carta ul li {
+    color: black;
+    margin-bottom: 10px;
+  }
+
+
+  /*Precios*/
+  #precios-TecHelp .precios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #precios-TecHelp .container{
+    padding: 100px 0 12px 12px
+  }
+    
+  #precios-TecHelp .carta2 {
+    padding: 40px;
+    background-color: #BBDEFB;
+    flex: 1 1 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+
+  #precios-TecHelp .carta2:hover {
+    transform: scale(1.05); /* Ejemplo de animación al hacer hover */
+  }
+
+  #precios-TecHelp .carta2:first-child:hover {
+    box-shadow: 2px 2px 10px rgba(54, 224, 114, 0.495);
+  }
+
+  #precios-TecHelp .carta2:nth-child(2):hover {
+    box-shadow: 2px 2px 10px rgba(243, 232, 134, 0.495);
+  }
+
+  #precios-TecHelp .carta2:last-child:hover {
+    box-shadow: 2px 2px 10px rgba(124, 185, 231, 0.654);
+  }
+
+    
+  #precios-TecHelp h2 {
+    font-size: 2.5em;
+  }
+  
+  #precios-TecHelp p {
+    margin-bottom: 15px;
+  }
+  
+  #precios-TecHelp .carta2 button {
+    margin-top: auto; /* Alinea el botón al final de la carta */
+  }
+
+  .image-comp{
+    height: 50px;
+    width: 50px;
+    padding: auto;
+  }
+.play-store {
+  margin-top: 10px;
+}
+
+
+ /*Acerca de*/
+  #acerca-TecHelp .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  #acerca-TecHelp h2 {
+    text-align: center;
+    width: 100%;
+  }
+  
+  #acerca-TecHelp .aboutTheApp-video {
+    flex-basis: 50%;
+  }
+  
+  #acerca-TecHelp .texto {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+  #acerca-TecHelp .texto h2 {
+    margin-bottom: 20px;
+  }
+
+  
+  #acerca-TecHelp p{
+    padding: 30px 30px; 
+  }
+  
+  #acerca-TecHelp iframe{
+    height: 50vh;
+  }
+
+
+
+  #acerca-TecHelp .logos {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio entre los logos */
+  }
+  
+  #acerca-TecHelp .logos img {
+    max-width: 100%;
+  }
+  
+  #acerca-TecHelp .logos .play-store {
+    margin-left: 470px;
+  }
+
+    
+  #acerca-TecHelp .logos .app-store {
+    margin-right: 400px;
+  }
+  
+  @media (max-width: 1250px) {
+    #acerca-TecHelp .logos {
+      flex-basis: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    #acerca-TecHelp .logos .play-store {
+      margin-left: 0;
+    }
+  
+      
+    #acerca-TecHelp .logos .app-store {
+      margin-right: 0;
+    }
+    
+    #acerca-TecHelp .logos img {
+      max-width: 100%;
+      margin: 0 5px;
+    }
+    
+    #acerca-TecHelp .play-store {
+      margin-right: 5px; 
+    }
+  }
+
+
+
+  /* Testimonios */
+  #testimonios-TecHelp .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #testimonios-TecHelp h2 {
+    margin-bottom: 20px;
+  }
+
+  #testimonios-TecHelp .testimonios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las cartas de testimonio */
+  }
+
+  #testimonios-TecHelp .carta3 {
+    flex-basis: 400px;
+    background-color: rgba(58, 58, 58, 0.838);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #testimonios-TecHelp .carta3 .image-person {
+    width: 200px;
+    height: 90px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  #testimonios-TecHelp .image-person img {
+    width: 100%;
+    border-radius: 60%;
+    object-fit: cover;
+  }
+
+
+
+  #testimonios-TecHelp .comentario h3 {
+    margin-top: 10px;
+  }
+
+  #testimonios-TecHelp .comentario p {
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+  /* Contacto */
+  #contacto-TecHelp .formulario-TecHelp {
+    justify-content: space-between; /* Alinear el formulario y la imagen en los extremos */
+  }
+  
+  #contacto-TecHelp .image-container {
+    flex: 1; /* Ocupar la mitad del ancho disponible */
+    display: flex; /* Mostrar la imagen */
+    justify-content: flex-end; /* Alinear la imagen a la derecha */
+  }
+  
+  #contacto-TecHelp .form-container {
+    flex: 1; /* Ocupar la otra mitad del ancho disponible */
+    padding-right: 50px; /* Espacio derecho para separar el formulario de la imagen */
+  }
+
+  #contacto-TecHelp .image-container img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+  }
+  
+  #contacto-TecHelp p{
+    padding-bottom: 10px;
+  }
+
+
+
+  /* Nosotros */
+  #nosotros-TecHelp  iframe{
+    padding: 0 20px;
+    width: 70%;
+    height: 60vh;
+  }
+   
+
+
+  /* Footer */
+  .container-body {
+    flex-direction: row;
+  }
+
+  .column1 {
+    flex-basis: 25%;
+  }
+
+  .column2,
+  .column3,
+  .column4 {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .row img {
+    margin-right: 10px;
+  }
+
+  .column4 .title {
+    margin-bottom: 10px;
+  }
+
+  .nets {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nets li {
+    margin-right: 10px;
+  }
+
+  .download-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-right: 120px;
+  }
+
+  .download-footer li {
+    margin-left: 10px;
+  }
+}
