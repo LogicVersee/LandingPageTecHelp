@@ -85,6 +85,6 @@ var btn= document.getElementById("btn-call-action");
 btn.addEventListener("click",function(){
   //Poner el link de la app web aqui
   event.preventDefault();
-  window.location.href="https://www.youtube.com/watch?v=NdeeWkpf_2I"
+  window.location.href="https://techhelp-webapp-v1.web.app/"
 
 })
