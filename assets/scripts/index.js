@@ -85,6 +85,6 @@ var btn= document.getElementById("btn-call-action");
 btn.addEventListener("click",function(){
   //Poner el link de la app web aqui
   event.preventDefault();
-  window.location.href="https://techhelp-webapp-v1.web.app/"
+  window.location.href="https://techhelp-webapp-v1.web.app/login"
 
 })
