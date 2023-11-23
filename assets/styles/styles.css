@@ -1,4 +1,4 @@
-/*VERSION MOBILES*/
+
 
 *{
     box-sizing: border-box;
@@ -78,7 +78,7 @@ header .logo{
 }
 
 
-/*Para centrar toda la barra de navegación*/
+
 header .container{
     display: flex;
     flex-direction: column;
@@ -156,7 +156,7 @@ header{
 
 
 
-/*Estilos para el Switch*/
+
 .switch {
     position: relative;
     display: inline-block;
@@ -219,7 +219,7 @@ input:checked + .slider:before {
     transition: background-color 0.4s;
 }
 
-/*Estilo para botón del DarkMode*/
+
 #dark-mode-button {
     display: flex;
     align-items: center;
@@ -238,7 +238,7 @@ input:checked + .slider:before {
 }
 
 
-  /*Beneficios*/
+
   #benefit-TecHelp{
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -250,7 +250,7 @@ input:checked + .slider:before {
   }
   
   #benefit-TecHelp .container{
-   /*padding: 150px 12px;*/
+
     padding: 200px 0 12px 12px
   }
   
@@ -275,9 +275,9 @@ input:checked + .slider:before {
     border-radius: 15px;
   }
   
-  /*Selecciona la primer "carta" de las 3 creadas*/
+  
   .cart:first-child {
-    /*Aplicando el gradiente - Overlay*/
+   
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.7),
@@ -285,7 +285,7 @@ input:checked + .slider:before {
     )
   }
   
-  /*Selecciona la segunda "carta" de las 3 creadas*/
+  
   .cart:nth-child(2) {
     background-image: linear-gradient(
         0deg,
@@ -294,8 +294,7 @@ input:checked + .slider:before {
     )
   }   
   
-  /*Selecciona la segunda "carta" de las 3 creadas
-  .carta:nth-child(3) --> da el mismo resultado*/
+ 
   .cart:last-child {
     background-image: linear-gradient(
         0deg,
@@ -316,12 +315,12 @@ input:checked + .slider:before {
   }
   
   .benefit li::before {
-    content: "\2714"; /* CÃ³digo del emoji de checkmark */
-    color: rgb(137, 255, 137); /* Color del emoji */
-    margin-right: 5px; /* Espacio entre el emoji y el texto */
+    content: "\2714";
+    color: rgb(137, 255, 137); 
+    margin-right: 5px; 
   }
 
-  /*Precios*/
+ 
 #prices-TecHelp{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -343,7 +342,7 @@ input:checked + .slider:before {
   }
   #prices-TecHelp  p {
     
-    /*display: none;*/
+    
     padding-bottom: 40px; 
   }
   
@@ -431,7 +430,7 @@ input:checked + .slider:before {
     background-color: #1E88E5;
   }
   
-  /*Personalización de título de los precios*/
+  
   .prices .cart2:first-child h3{
     color: #000000;
   }
@@ -445,7 +444,7 @@ input:checked + .slider:before {
   }
   
   
-  /*Personalización de botones*/
+ 
   .prices .cart2:first-child button:hover{
     font-size: 1.50em;
     background-color: rgba(147, 208, 255, 0.654);
@@ -463,7 +462,7 @@ input:checked + .slider:before {
   }
   
   
-  /*Personalización de bordes*/
+  
   .cart2:first-child:hover {
     border: 3px solid rgba(54, 224, 114, 0.495);
   }
@@ -477,7 +476,6 @@ input:checked + .slider:before {
   }
   
   
-/*Testimonios*/
 
 #testimony-TecHelp {
   background-color: #0D47A1;
@@ -503,7 +501,7 @@ input:checked + .slider:before {
   border-radius: 10px;
   background-color: rgba(38, 38, 38, 0.838);
 
-  /*Transición*/
+  
   transition: transform 0.3s ease;
 }
 
@@ -555,7 +553,7 @@ input:checked + .slider:before {
   color:#ffffff
 }
 
-/*Contacto*/
+
 #contact-TecHelp .container {
   text-align: center;
   padding: 100px 0 12px 12px
@@ -586,9 +584,7 @@ label{
 
 #contact-TecHelp .image-container {
   display: none;
-  /*
-  max-width: 100%;
-  height: auto;*/
+  
 }
 
 .form-TecHelp .form-container {
@@ -623,7 +619,7 @@ label{
 .form h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #000000; /* Color del título del formulario */
+  color: #000000; 
 }
 
 .form-label {
@@ -645,7 +641,7 @@ label{
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #1968d6; /* Color del borde al enfocar el campo de entrada */
+  border-color: #1968d6;
 }
 
 .btn-submit {
@@ -686,7 +682,7 @@ label{
   padding: 30px;
   border-radius: 10px;
 }
-/*Sobre Nosotros*/
+
 #nosotros-TecHelp .container {
   text-align: center;
   padding: 200px 12px; 
@@ -695,7 +691,7 @@ label{
 #nosotros-TecHelp h2 {
   margin-top: 0;
   font-size: 2.2em;
-  color: #000000; /* Color del título */
+  color: #000000; 
 }
 
 #nosotros-TecHelp  iframe{
@@ -709,7 +705,7 @@ label{
   opacity: 0.9; 
 }
 
-/*Footer*/
+
 #footer-TecHelp {
   background-color: #72B4EF;
   text-align: center;
@@ -723,7 +719,7 @@ label{
 }
 
 .logo-image-footer {
-  width: 150px; /* Ajusta el tamaño del logo según tus preferencias */
+  width: 150px; 
 }
 
 .column2,
@@ -797,14 +793,11 @@ label{
   font-weight: bold;
 }
 
-/*VERSION Desktop*/
-/*Si el ancho es mayor a 720px:*/
 
 @media (min-width: 720px) {
   
   header{
-    /*para que al navegar se mantenga 
-    la barra de navegación quieta*/
+    
     position: fixed;
     width: 100%;
   }
@@ -821,7 +814,7 @@ label{
   }
 
   header nav a {
-    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-size: 20px; 
   }
 
   .spain{
@@ -830,13 +823,13 @@ label{
   }
 
   .switch {
-    margin-left: 1px; /* Ajusta el margen izquierdo según tu preferencia */
-    margin-right: 2px; /* Ajusta el margen izquierdo según tu preferencia */
+    margin-left: 1px; 
+    margin-right: 2px; 
     margin-top: 5px;
   }
 
   #hero {
-    height: 115vh; /*para que se vea mejor la imagen*/
+    height: 115vh; 
   }
 
   #hero h1{
@@ -846,7 +839,7 @@ label{
 
 
 
-   /*Beneficios*/
+   
   #benefit-TecHelp .benefit {
     display: flex;
     justify-content: center;
@@ -869,7 +862,7 @@ label{
     padding: 80px;
     height: 300px;
     background-repeat: no-repeat;
-    background-position: center; /* Centra las imágenes verticalmente */
+    background-position: center; 
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
@@ -889,7 +882,7 @@ label{
   }
 
 
-  /*Precios*/
+  
   #prices-TecHelp .prices {
     display: flex;
     justify-content: center;
@@ -911,7 +904,7 @@ label{
   }
 
   #prices-TecHelp .cart2:hover {
-    transform: scale(1.05); /* Ejemplo de animación al hacer hover */
+    transform: scale(1.05); 
   }
 
   #prices-TecHelp .cart2:first-child:hover {
@@ -936,7 +929,7 @@ label{
   }
   
   #prices-TecHelp .cart2 button {
-    margin-top: auto; /* Alinea el botón al final de la carta */
+    margin-top: auto; 
   }
 
   .image-comp{
@@ -949,7 +942,7 @@ label{
 }
 
 
- /*Acerca de*/
+
   #acerca-TecHelp .container {
     display: flex;
     flex-wrap: wrap;
@@ -994,7 +987,7 @@ label{
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     align-items: center;
-    gap: 15px; /* Espacio entre los logos */
+    gap: 15px; 
   }
   
   #acerca-TecHelp .logos img {
@@ -1040,7 +1033,7 @@ label{
 
 
 
-  /* Testimonios */
+
   #testimony-TecHelp .container {
     display: flex;
     flex-direction: column;
@@ -1056,7 +1049,7 @@ label{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Espacio entre las cartas de testimonio */
+    gap: 20px; 
   }
 
   #testimony-TecHelp .cart3 {
@@ -1094,25 +1087,25 @@ label{
 
 
 
-  /* Contacto */
+  
   #contact-TecHelp .form-TecHelp {
-    justify-content: space-between; /* Alinear el formulario y la imagen en los extremos */
+    justify-content: space-between; 
   }
   
   #contact-TecHelp .image-container {
-    flex: 1; /* Ocupar la mitad del ancho disponible */
-    display: flex; /* Mostrar la imagen */
-    justify-content: flex-end; /* Alinear la imagen a la derecha */
+    flex: 1; 
+    display: flex; 
+    justify-content: flex-end; 
   }
   
   #contact-TecHelp .form-container {
-    flex: 1; /* Ocupar la otra mitad del ancho disponible */
-    padding-right: 50px; /* Espacio derecho para separar el formulario de la imagen */
+    flex: 1; 
+    padding-right: 50px; 
   }
 
   #contact-TecHelp .image-container img {
-    max-width: 100%; /* Ajusta el ancho máximo de la imagen al tamaño del contenedor */
-    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+    max-width: 100%; 
+    height: auto; 
   }
   
   #contact-TecHelp p{
@@ -1121,7 +1114,7 @@ label{
 
 
 
-  /* Nosotros */
+  
   #nosotros-TecHelp  iframe{
     padding: 0 20px;
     width: 70%;
@@ -1130,7 +1123,7 @@ label{
    
 
 
-  /* Footer */
+  
   .container-body {
     flex-direction: row;
   }
@@ -1184,7 +1177,7 @@ label{
   }
 
 
-/* About the product */
+
 .RandP {
   background: #ffffff;
   padding: 20px;
@@ -1206,7 +1199,7 @@ label{
 .cardP {
   background: #1e488b;
   border-radius: 35px;
-  margin: 20px auto; /* Establece el margen superior e inferior a 20px y los laterales a 'auto' */
+  margin: 20px auto; 
   padding: 15px;
   flex: 1 1 300px;
   max-width: 300px;
