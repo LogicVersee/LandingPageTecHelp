@@ -239,34 +239,34 @@ input:checked + .slider:before {
 
 
   /*Beneficios*/
-  #beneficios-TecHelp{
+  #benefit-TecHelp{
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     text-align: center;
   }
   
-  #beneficios-TecHelp h2{
+  #benefit-TecHelp h2{
     color: rgb(0, 0, 0);
   }
   
-  #beneficios-TecHelp .container{
+  #benefit-TecHelp .container{
    /*padding: 150px 12px;*/
     padding: 200px 0 12px 12px
   }
   
-  #beneficios-TecHelp h2 {
+  #benefit-TecHelp h2 {
     margin-top: 0;
     font-size: 2.0em;
   }
   
-  #beneficios-TecHelp p {
+  #benefit-TecHelp p {
     color: rgb(0, 0, 0);
     margin-top: 0;
     font-size: 1.5em;
   }
   
   
-  #beneficios-TecHelp  .carta{
+  #benefit-TecHelp  .cart{
     background-size: cover;
     background-position: center center;
   
@@ -276,7 +276,7 @@ input:checked + .slider:before {
   }
   
   /*Selecciona la primer "carta" de las 3 creadas*/
-  .carta:first-child {
+  .cart:first-child {
     /*Aplicando el gradiente - Overlay*/
     background-image: linear-gradient(
         0deg,
@@ -286,7 +286,7 @@ input:checked + .slider:before {
   }
   
   /*Selecciona la segunda "carta" de las 3 creadas*/
-  .carta:nth-child(2) {
+  .cart:nth-child(2) {
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.7),
@@ -296,7 +296,7 @@ input:checked + .slider:before {
   
   /*Selecciona la segunda "carta" de las 3 creadas
   .carta:nth-child(3) --> da el mismo resultado*/
-  .carta:last-child {
+  .cart:last-child {
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.7),
@@ -304,35 +304,35 @@ input:checked + .slider:before {
     )
   }
   
-  .beneficios{
+  .benefit{
     text-align: center;
     padding: 20px 1px;
   }
   
-  .beneficios li{
+  .benefit li{
     padding: 15px 0px;
     font-weight: bold;
     margin-left: -25px;
   }
   
-  .beneficios li::before {
+  .benefit li::before {
     content: "\2714"; /* CÃ³digo del emoji de checkmark */
     color: rgb(137, 255, 137); /* Color del emoji */
     margin-right: 5px; /* Espacio entre el emoji y el texto */
   }
 
   /*Precios*/
-#precios-TecHelp{
+#prices-TecHelp{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
   }
   
-  #precios-TecHelp .container{
+  #prices-TecHelp .container{
     padding: 100px 0 12px 12px
   }
   
-  #precios-TecHelp h2 {
+  #prices-TecHelp h2 {
     margin-top: 0;
     padding-bottom: 30px;
     font-size: 2.0em;
@@ -341,13 +341,13 @@ input:checked + .slider:before {
   .text {
     padding: 05px;
   }
-  #precios-TecHelp  p {
+  #prices-TecHelp  p {
     
     /*display: none;*/
     padding-bottom: 40px; 
   }
   
-  #precios-TecHelp .carta2{
+  #prices-TecHelp .cart2{
     background-size: cover;
     background-position: center center;
   
@@ -365,7 +365,7 @@ input:checked + .slider:before {
     border-radius: 10px;
   }
   
-  .carta2:first-child {
+  .cart2:first-child {
       background-image: linear-gradient(
           0deg,
           #BBDEFB,
@@ -376,7 +376,7 @@ input:checked + .slider:before {
       border: 2px solid rgba(178, 178, 178, 0.522);
   }
   
-  .carta2:nth-child(2) {
+  .cart2:nth-child(2) {
       background-image: linear-gradient(
         0deg,
         #BBDEFB,
@@ -387,7 +387,7 @@ input:checked + .slider:before {
     border: 2px solid rgba(178, 178, 178, 0.522);
   }   
   
-  .carta2:last-child {
+  .cart2:last-child {
       background-image: linear-gradient(
         0deg,
         #BBDEFB,
@@ -397,7 +397,7 @@ input:checked + .slider:before {
     border: 2px solid rgba(178, 178, 178, 0.522);
   }
   
-  .precios .carta2:first-child button{
+  .prices .cart2:first-child button{
     font-size: 1.25em;
     font-weight: bold;
     padding: 10px 40px;
@@ -408,7 +408,7 @@ input:checked + .slider:before {
     background-color: #1E88E5;
   }
   
-  .precios .carta2:nth-child(2) button{
+  .prices .cart2:nth-child(2) button{
     font-size: 1.25em;
     font-weight: bold;
     padding: 10px 40px;
@@ -420,7 +420,7 @@ input:checked + .slider:before {
   }
   
   
-  .precios .carta2:last-child button{
+  .prices .cart2:last-child button{
     font-size: 1.25em;
     font-weight: bold;
     padding: 10px 40px;
@@ -432,70 +432,70 @@ input:checked + .slider:before {
   }
   
   /*Personalización de título de los precios*/
-  .precios .carta2:first-child h3{
+  .prices .cart2:first-child h3{
     color: #000000;
   }
   
-  .precios .carta2:nth-child(2) h3{
+  .prices .cart2:nth-child(2) h3{
     color: rgb(224, 210, 78);
   }
   
-  .precios .carta2:last-child h3{
+  .prices .cart2:last-child h3{
     color: #000000;
   }
   
   
   /*Personalización de botones*/
-  .precios .carta2:first-child button:hover{
+  .prices .cart2:first-child button:hover{
     font-size: 1.50em;
     background-color: rgba(147, 208, 255, 0.654);
   }
   
-  .precios .carta2:nth-child(2) button:hover{
+  .prices .cart2:nth-child(2) button:hover{
     font-size: 1.50em;
     background-color: rgb(255, 244, 142);
   }
   
   
-  .precios .carta2:last-child button:hover{
+  .prices .cart2:last-child button:hover{
     font-size: 1.50em;
     background-color: rgba(147, 208, 255, 0.654);
   }
   
   
   /*Personalización de bordes*/
-  .carta2:first-child:hover {
+  .cart2:first-child:hover {
     border: 3px solid rgba(54, 224, 114, 0.495);
   }
   
-  .carta2:nth-child(2):hover{
+  .cart2:nth-child(2):hover{
     border: 3px solid rgb(243, 232, 134);
   }   
   
-  .carta2:last-child:hover {
+  .cart2:last-child:hover {
     border: 3px solid rgba(124, 185, 231, 0.654);
   }
   
   
 /*Testimonios*/
 
-#testimonios-TecHelp {
+#testimony-TecHelp {
   background-color: #0D47A1;
   color: #ffffff;
   text-align: center;
 }
 
-#testimonios-TecHelp .container {
+#testimony-TecHelp .container {
   padding: 100px 0 12px 12px;
   width: 80%;
 }
 
-#testimonios-TecHelp h2 {
+#testimony-TecHelp h2 {
   margin-top: 0;
   font-size: 2.2em;
 }
 
-#testimonios-TecHelp .carta3 {
+#testimony-TecHelp .cart3 {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -507,7 +507,7 @@ input:checked + .slider:before {
   transition: transform 0.3s ease;
 }
 
-#testimonios-TecHelp .carta3 .image-person {
+#testimony-TecHelp .cart3 .image-person {
   width: 200px;
   height: 90px;
   border-radius: 70%;
@@ -515,38 +515,38 @@ input:checked + .slider:before {
   margin-right: 20px;
 }
 
-#testimonios-TecHelp .carta3 .image-person img {
+#testimony-TecHelp .cart3 .image-person img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-#testimonios-TecHelp .carta3 .comentario h3,
-#testimonios-TecHelp .carta3 .comentario p {
+#testimony-TecHelp .cart3 .comentario h3,
+#testimony-TecHelp .cart3 .comentario p {
   margin: 0;
   color: rgb(255, 255, 255);
 }
 
-#testimonios-TecHelp .carta3 .comentario h3 {
+#testimony-TecHelp .cart3 .comentario h3 {
   font-size: 1.2em;
   font-weight: bold;
   padding: 5px;
 }
 
-#testimonios-TecHelp .carta3 .comentario p {
+#testimony-TecHelp .cart3 .comentario p {
   font-size: 0.9em;
 }
 
-#testimonios-TecHelp .carta3 .comentario .rol {
+#testimony-TecHelp .cart3 .comentario .rol {
   font-size: 0.9em;
   font-weight: bold;
 }
 
-#testimonios-TecHelp .carta3 p:last-child {
+#testimony-TecHelp .cart3 p:last-child {
   margin-top: 10px;
 }
 
-#testimonios-TecHelp .carta3:hover {
+#testimony-TecHelp .cart3:hover {
   transform: scale(1.05);
   box-shadow: 2px 2px 10px rgb(198, 198, 198);
 }
@@ -556,12 +556,12 @@ input:checked + .slider:before {
 }
 
 /*Contacto*/
-#contacto-TecHelp .container {
+#contact-TecHelp .container {
   text-align: center;
   padding: 100px 0 12px 12px
 }
 
-#contacto-TecHelp .title-container {
+#contact-TecHelp .title-container {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -569,29 +569,29 @@ input:checked + .slider:before {
 label{
   padding: 10px;
 }
-#contacto-TecHelp h2 {
+#contact-TecHelp h2 {
   margin-top: 0;
   font-size: 2.2em;
 }
 
-#contacto-TecHelp p {
+#contact-TecHelp p {
   font-size: 1.1em;
 }
 
-#contacto-TecHelp .formulario-TecHelp {
+#contact-TecHelp .form-TecHelp {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#contacto-TecHelp .image-container {
+#contact-TecHelp .image-container {
   display: none;
   /*
   max-width: 100%;
   height: auto;*/
 }
 
-.formulario-TecHelp .form-container {
+.form-TecHelp .form-container {
   flex: 1;
   padding-right: 50px;
   display: flex;
@@ -599,14 +599,14 @@ label{
 }
 
 
-.formulario-TecHelp .image-container {
+.form-TecHelp .image-container {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.formulario-TecHelp .form {
+.form-TecHelp .form {
   background-color: #f5f5f5;
   padding: 30px;
   border-radius: 10px;
@@ -615,7 +615,7 @@ label{
   transition: transform 0.3s ease;
 }
 
-.formulario-TecHelp .form:hover {
+.form-TecHelp .form:hover {
   transform: scale(1.05);
   box-shadow: 0 2px 6px rgba(0, 57, 110, 0.5);
 }
@@ -671,7 +671,7 @@ label{
 }
 
 
-.formulario-TecHelp {
+.form-TecHelp {
   display: flex;
   align-items: center;
 }
@@ -847,25 +847,25 @@ label{
 
 
    /*Beneficios*/
-  #beneficios-TecHelp .beneficios {
+  #benefit-TecHelp .benefit {
     display: flex;
     justify-content: center;
   }
   
-  #beneficios-TecHelp p {
+  #benefit-TecHelp p {
     display: block;
     margin-bottom: 30px;
   }
   
-  #beneficios-TecHelp h2 {
+  #benefit-TecHelp h2 {
     font-size: 4em;
   }
   
-  #beneficios-TecHelp h3 {
+  #benefit-TecHelp h3 {
     margin-top: 0;
   }
   
-  #beneficios-TecHelp .carta {
+  #benefit-TecHelp .cart {
     padding: 80px;
     height: 300px;
     background-repeat: no-repeat;
@@ -877,30 +877,30 @@ label{
   }
 
   
-  .carta ul {
+  .cart ul {
     margin-top: 210px;
     padding: 0;
     list-style-type: none;
   }
   
-  .carta ul li {
+  .cart ul li {
     color: black;
     margin-bottom: 10px;
   }
 
 
   /*Precios*/
-  #precios-TecHelp .precios {
+  #prices-TecHelp .prices {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  #precios-TecHelp .container{
+  #prices-TecHelp .container{
     padding: 100px 0 12px 12px
   }
     
-  #precios-TecHelp .carta2 {
+  #prices-TecHelp .cart2 {
     padding: 40px;
     background-color: #BBDEFB;
     flex: 1 1 300px;
@@ -910,32 +910,32 @@ label{
     transition: transform 0.3s ease;
   }
 
-  #precios-TecHelp .carta2:hover {
+  #prices-TecHelp .cart2:hover {
     transform: scale(1.05); /* Ejemplo de animación al hacer hover */
   }
 
-  #precios-TecHelp .carta2:first-child:hover {
+  #prices-TecHelp .cart2:first-child:hover {
     box-shadow: 2px 2px 10px rgba(54, 224, 114, 0.495);
   }
 
-  #precios-TecHelp .carta2:nth-child(2):hover {
+  #prices-TecHelp .cart2:nth-child(2):hover {
     box-shadow: 2px 2px 10px rgba(243, 232, 134, 0.495);
   }
 
-  #precios-TecHelp .carta2:last-child:hover {
+  #prices-TecHelp .cart2:last-child:hover {
     box-shadow: 2px 2px 10px rgba(124, 185, 231, 0.654);
   }
 
     
-  #precios-TecHelp h2 {
+  #prices-TecHelp h2 {
     font-size: 2.5em;
   }
   
-  #precios-TecHelp p {
+  #prices-TecHelp p {
     margin-bottom: 15px;
   }
   
-  #precios-TecHelp .carta2 button {
+  #prices-TecHelp .cart2 button {
     margin-top: auto; /* Alinea el botón al final de la carta */
   }
 
@@ -1041,32 +1041,32 @@ label{
 
 
   /* Testimonios */
-  #testimonios-TecHelp .container {
+  #testimony-TecHelp .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  #testimonios-TecHelp h2 {
+  #testimony-TecHelp h2 {
     margin-bottom: 20px;
   }
 
-  #testimonios-TecHelp .testimonios {
+  #testimony-TecHelp .testimony {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px; /* Espacio entre las cartas de testimonio */
   }
 
-  #testimonios-TecHelp .carta3 {
+  #testimony-TecHelp .cart3 {
     flex-basis: 400px;
     background-color: rgba(58, 58, 58, 0.838);
     padding: 20px;
     border-radius: 10px;
   }
 
-  #testimonios-TecHelp .carta3 .image-person {
+  #testimony-TecHelp .cart3 .image-person {
     width: 200px;
     height: 90px;
     border-radius: 70%;
@@ -1074,7 +1074,7 @@ label{
     margin-right: 20px;
   }
   
-  #testimonios-TecHelp .image-person img {
+  #testimony-TecHelp .image-person img {
     width: 100%;
     border-radius: 60%;
     object-fit: cover;
@@ -1082,11 +1082,11 @@ label{
 
 
 
-  #testimonios-TecHelp .comentario h3 {
+  #testimony-TecHelp .comentario h3 {
     margin-top: 10px;
   }
 
-  #testimonios-TecHelp .comentario p {
+  #testimony-TecHelp .comentario p {
     margin-bottom: 10px;
   }
 
@@ -1095,27 +1095,27 @@ label{
 
 
   /* Contacto */
-  #contacto-TecHelp .formulario-TecHelp {
+  #contact-TecHelp .form-TecHelp {
     justify-content: space-between; /* Alinear el formulario y la imagen en los extremos */
   }
   
-  #contacto-TecHelp .image-container {
+  #contact-TecHelp .image-container {
     flex: 1; /* Ocupar la mitad del ancho disponible */
     display: flex; /* Mostrar la imagen */
     justify-content: flex-end; /* Alinear la imagen a la derecha */
   }
   
-  #contacto-TecHelp .form-container {
+  #contact-TecHelp .form-container {
     flex: 1; /* Ocupar la otra mitad del ancho disponible */
     padding-right: 50px; /* Espacio derecho para separar el formulario de la imagen */
   }
 
-  #contacto-TecHelp .image-container img {
+  #contact-TecHelp .image-container img {
     max-width: 100%; /* Ajusta el ancho máximo de la imagen al tamaño del contenedor */
     height: auto; /* Mantiene la proporción de aspecto original de la imagen */
   }
   
-  #contacto-TecHelp p{
+  #contact-TecHelp p{
     padding-bottom: 10px;
   }
 
@@ -1182,4 +1182,36 @@ label{
   .download-footer li {
     margin-left: 10px;
   }
+
+
+/* About the product */
+.RandP {
+  background: #ffffff;
+  padding: 20px;
+}
+
+.RandP-title {
+  color: #1e488b;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+.cardsP {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardP {
+  background: #1e488b;
+  border-radius: 35px;
+  margin: 20px auto; /* Establece el margen superior e inferior a 20px y los laterales a 'auto' */
+  padding: 15px;
+  flex: 1 1 300px;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+
 }
